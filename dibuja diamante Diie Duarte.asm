@@ -116,7 +116,7 @@ jmp inicio short
     opcion          db 9,9,7,"   Escribe un n",163,"mero mayor a 2 y menor a 38: $"
     menumsj         db 13,10,9,9,7,"     Deseas Salir del programa? SI(1),NO(0) $" 
     errormsj        db 13,10,7,"Existe un error! No estas dentro del rango o no es un caracter v",160,"lido",13,10,"$"        
-    despedidaMsj    db 13,10,"¡¡¡¡Gracias por utilizar el programa, hasta pronto!!!!",13,10,"$"
+    despedidaMsj    db 13,10,"Â¡Â¡Â¡Â¡Gracias por utilizar el programa, hasta pronto!!!!",13,10,"$"
     instruccion     db 7,"Presione cualquier tecla para continuar.......",13,10,"$" 
 
 .code 
