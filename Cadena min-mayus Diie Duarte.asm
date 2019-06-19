@@ -43,7 +43,7 @@ cadOutput db 100,?,102 dup("$")
     convierteMayus:             ;Operacion que convertira a mayusculas
         lodsb                   ;Cargamos el primer caracter(byte) a AL con la instruccion LODSB
         and al,11011111b        ;Hacemos un AND para convertirla a mayusculas
-        stosb                   ;Guardamos en DI con la instruccion STOSB 
+        stosb                   ;Guardamos en DI lo que hay en AL con la instruccion STOSB 
     loop convierteMayus         ;repetimos hasta que CX=0
     
     ;LAS INSTRUCCIONES LODSB INCREMENTA EL SI EN 1 Y STOSB INCREMENTA EL DI EN 1, POR LO QUE NO
