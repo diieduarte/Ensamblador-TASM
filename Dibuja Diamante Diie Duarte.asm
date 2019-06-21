@@ -46,7 +46,7 @@ formateo macro arg1,arg2,arg3
  
        
     mov ax,arg3
-    sub al,1
+    sub al,2
     mov arg1,al
     
     mov ax,arg3
